@@ -5,8 +5,8 @@ import android.app.Application
 class Application : Application() {
 
     init {
-//        System.loadLibrary("keys")
-        System.loadLibrary("native-lib")
+        System.loadLibrary("keys")
+//        System.loadLibrary("native-lib")
     }
 
     external fun getPublicKey(): String?
